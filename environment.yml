@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+name: 450-binder
+
+channels:
+  - conda-forge
+  - defaults
+  
+dependencies:
+  - python=3.8.13
+  - spacy=3.3.1
+  - spacy-model-en_core_web_sm
+  - pip
+  - pip:
+      - pymongo==4.1.1
+      - pyexcelerate
